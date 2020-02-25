@@ -1,0 +1,7 @@
+{
+    "schemaType": "LAUNCHER", 
+    "displayName": "Data App 1", 
+    "id": "nr1-data-apps-launcher", 
+    "rootNerdletId": "nr1-data-apps-nerdlet", 
+    "description": "Data Apps"
+}

@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "name": "nr1-data-apps",
+  "description": "Data Apps",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "nr1 nerdpack:serve",
+    "test": "exit 0"
+  },
+  "dependencies": {
+    "markdown-it": "^10.0.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-html-parser": "^2.0.2",
+    "react-select": "^3.0.8"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "not ie < 11",
+    "not dead"
+  ]
+}

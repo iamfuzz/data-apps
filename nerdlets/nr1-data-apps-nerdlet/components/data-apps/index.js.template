@@ -1,0 +1,56 @@
+/**
+ *
+ *
+ * @file
+ * @author
+ */
+/** core */
+import React from 'react';
+import PropTypes from 'prop-types';
+/** nr1 */
+import {
+  Spinner
+} from 'nr1';
+/** local */
+import Tab1 from './components/tab1';
+/** 3rd party */
+
+
+/**
+ * DataApps - Component
+ */
+export default class DataApps extends React.Component {
+  static propTypes = {
+    nerdletUrlState: PropTypes.object,
+    launcherUrlState: PropTypes.object,
+    tabIndex: PropTypes.number,
+  }; //propTypes
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      currentTab: ('tabIndex' in props) ? props.tabIndex : 1,
+      accountId: DEADBEEF,
+    };
+
+    this.switchTab = this.switchTab.bind(this);
+  }; //constructor
+
+  switchTab(e, id) {
+    e.preventDefault();
+
+    this.setState({
+      currentTab: id,
+    });
+  }
+
+  /** Lifecycle render */
+  render() {
+    const { currentTab, accountId } = this.state;
+
+    return(
+
+#JSX#
+    );
+  } //render
+}//DataApps
