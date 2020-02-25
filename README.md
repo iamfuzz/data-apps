@@ -32,7 +32,6 @@ npm update
 nr1 nerdpack:uuid --generate
 ```
 
-```
 Execute the following command which will generate a configuration file for your Data App:
 
 ```bash
