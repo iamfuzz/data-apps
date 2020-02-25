@@ -32,6 +32,14 @@ npm update
 nr1 nerdpack:uuid --generate
 ```
 
+Create the dashboards directory:
+
+```bash
+mkdir nerdlets/nr1-data-apps-nerdlet/components/insights-dashboard/dashboards
+```
+
+*You will now need to copy all of your JSOn dashboards into the directory you just created above*
+
 Execute the following command which will generate a configuration file for your Data App:
 
 ```bash
